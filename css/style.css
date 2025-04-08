@@ -29,11 +29,11 @@ body {
 /* Global container (centered column) */
 
 .container {
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     height: 100%;
     padding: 0px 35px;
-    margin: 0px auto;
+    margin: 0px auto 60px auto;
     max-width: 420px;
 }
 
@@ -176,6 +176,11 @@ body {
 /* Footer */
 
 #footer {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
     text-align: center;
 }
 
