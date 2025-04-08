@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>John.Me.tz</title>
+</head>
+<body>
+    <!-- Fixed background layer -->
+    <div class="background">
+    </div>
+    <!-- Scollable content container -->
+    <div class="container">
+
+        <!-- Block text item element -->
+        <div class="block-container">
+            <p class="title">Hi! I'm John!</p><br>
+            <p><span class="headline">I currently find myself in a time of transition, and that's probably related to why you
+                    are here!</span></p><br>
+            <p><span class="headline">While I work on getting things sorted around here, you might have some questions:</span>
+            </p><br>
+        </div>
+        <!-- end Block text item element -->
+
+        <!-- Series of clickable buttons! -->
+        <div class="links-container">
+            <div class="link-item">
+                <a href="/mailcleaner" class="link">
+                    <div>
+                        <img src="/images/email.svg">
+                        <p>Didn't you used to work on MailCleaner?</p>
+                    </div>
+                </a>
+            </div>
+            <div class="link-item">
+                <a href="https://old.john.me.tz" class="link">
+                    <div>
+                        <img src="/images/website.svg">
+                        <p>Didn't you used to have a proper website?</p>
+                    </div>
+                </a>
+            </div>
+            <div class="link-item">
+                <a href="https://github.com/JohnMertz" class="link" target="_blank">
+                    <div>
+                        <img src="/images/github.svg">
+                        <p>Can I follow you on GitHub?</p>
+                    </div>
+                </a>
+            </div>
+            <div class="link-item">
+                <a href="https://fosstodon.org/@mertz" class="link" target="_blank">
+                    <div>
+                        <img src="/images/mastodon.svg">
+                        <p>Can I follow you on Mastodon?</p>
+                    </div>
+                </a>
+            </div>
+            <div class="link-item">
+                <a href="https://linkedin.com/in/mertzjohn" class="link" target="_blank">
+                    <div>
+                        <img src="/images/linkedin.svg">
+                        <p>Can I follow you on LinkedIn?</p>
+                    </div>
+                </a>
+            </div>
+            <div class="link-item">
+                <a href="javascript:void(0);" onclick="alert('No');" class="link">
+                    <div>
+                        <img src="/images/question.svg">
+                        <p>Can I follow you anywhere else?</p>
+                    </div>
+                </a>
+            </div>
+            <!-- Form is not ready for prime time yet
+            <div class="link-item">
+                <a href="javascript:void(0);" onclick="focusInput()">
+                        <div class="list-item submit">
+                        <p>Get alerts on my new projects:</p>
+                              <form>
+                            <input type="text" placeholder="your@email.com" id="email" name="email"></input>
+                                    <button type="submit">SUBSCRIBE</button>
+                              </form>
+                    </div>
+                </a>
+            </div>
+            -->
+        </div>
+        <!-- end Series of clickable buttons! -->
+
+        <!-- Simple footer text -->
+        <div id="footer">
+            <p title="It's true! Check the source code!">Created by hand with pure HTML/CSS by John Mertz</p>
+        </div>
+        <!-- end Simple footer text -->
+    </div>
+    <!-- end Scollable content container -->
+
+    <script>
+        /* Take any click in the subscribe .link-item and give focus to the input box */
+        function focusInput() {
+            document.getElementById("email").focus();
+        }
+    </script>
+</body>
+</html>
